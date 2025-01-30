@@ -21,6 +21,7 @@
     "nodemon": "^3.1.9"
   },
   "dependencies": {
+    "country-iso-2-to-3": "^1.1.0",
     "express": "^4.21.2",
     "mongoose": "^8.9.5"
   }
