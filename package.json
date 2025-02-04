@@ -1,22 +1,18 @@
 {
-  "name": "admin-dashboard",
+  "name": "admin-dashboard-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "client": "npm run dev --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "seed": "node backend/seeder.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "seed": "node backend/seeder.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "concurrently": "^9.1.2",
     "nodemon": "^3.1.9"
   },
   "dependencies": {
